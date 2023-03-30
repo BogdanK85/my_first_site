@@ -1,53 +1,61 @@
-.page-header {
-    background-color: gray;
-    padding-top: 1px;
-}
-
-.header-container {
-    display: flex;
-    align-items: center;
-}
-
-
-.logo-img {
- padding: 12px; 
-}
-
-.menu-list {
-    display: block;
+header,
+footer {
+    background-color: #a42ad4;
     padding: 10px;
-
-}
-.menu-item {
-  margin-right: 30px;
 }
 
-.menu-link {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.1em;
-    color: #ffffff;
-  
+main {
+    padding: 10px;
+    background-color: silver;
 }
 
-.menu-link:is(:hover, :focus) {
-    color: #ff6c00;
+.post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
 }
 
-.header-phone {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-right: 43px;
+.post img {
+    margin: 20px;
 }
 
-.header-btn {
-    color: #ffffff;
+.footer-columns {
+    display: flex;
 }
+
+.footer-column {
+    flex: 50%;
+    margin: 20px;
+}
+
+.post-info {
+    color: grey;
+}
+
+.comment {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.author {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: silver;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#sub-comment {
+    margin-left: 40px;
+}
+
 #menu1 {
     position: relative;
     display: block;
@@ -55,7 +63,7 @@
     height: auto;
     z-index: 10;
 }
- 
+
 #menu1 ul {
     position: relative;
     display: block;
@@ -126,4 +134,14 @@
 
 #menu1 ul li ul li:first-child a {
     border-top: 0px;
+}
+
+h3:hover {
+    color: red;
+    transition: all 0.3s ease 0s;
+}
+
+img:hover {
+    border-radius: 100px;
+    transition: all 0.3s ease 0s;
 }
